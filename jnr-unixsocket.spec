@@ -5,7 +5,7 @@ Release:        2.0%{?dist}
 Summary:        Unix sockets for Java
 
 License:        ASL 2.0
-URL:            http://github.com/jnr/%{name}/
+URL:            https://github.com/jnr/%{name}/
 Source0:        https://github.com/jnr/%{name}/archive/%{version}.tar.gz/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 
