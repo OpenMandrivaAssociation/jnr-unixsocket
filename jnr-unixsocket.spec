@@ -9,6 +9,9 @@ URL:            https://github.com/jnr/%{name}/
 Source0:        https://github.com/jnr/%{name}/archive/refs/tags/jnr-unixsocket-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 
 BuildRequires:  jnr-parent
